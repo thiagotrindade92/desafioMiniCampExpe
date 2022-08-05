@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>IMC</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>IMC</h1>
+  <div class="d-flex">
+    <label for="inputPeso">Informa seu peso (kg):</label>
+    <input type="number" name="" id="inputPeso" value="" step="0.1" placeholder="Peso">
+  </div>
+  <div class="d-flex">
+    <label for="inputAltura">Informa sua altura (m): </label>
+    <input type="number" name="" id="inputAltura" value="" step="0.01" placeholder="Altura">
+  </div>
+
+  <div>
+    <button id="butto-calcule-imc">Calcular IMC</button>
+  </div>
+
+  <p id="paragraph-result">O IMC desses dados é: <strong id="imcResult"></strong></p>
+
+  <p>Este valor considera que você está na faixa: <strong id="imcResultGrau"></strong></p>
+
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
